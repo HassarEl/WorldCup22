@@ -1,0 +1,38 @@
+.bg-primary{
+    background: #811538 !important;
+    color: #fff;
+}
+
+.bg-secondary{
+    background: #5b0d25 !important;
+    color: #fff;
+}
+#header-background{
+    background-image: url("/images/pattern.png");
+}
+#header{
+    clip-path:polygon(0 0, 100% 0%, 100% 100%, 0 79%) ;
+    border-bottom: solid 18px #5b0d25;
+}
+#logo-header{
+    position: absolute;
+    z-index: 10;
+    left: 100px;
+    top: 70px;
+}
+#logo-img{
+    height: 300px;
+    -webkit-filter: drop-shadow(10px 12px 40px #66666682);
+    filter: drop-shadow(10px 12px 40px #66666682);
+}
+.header-title{
+    direction: rtl;
+    font-size: 3.16em;
+    margin-right: 7%;
+    color: #fff;
+}
+.groups{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
